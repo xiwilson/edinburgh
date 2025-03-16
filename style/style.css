@@ -1,4 +1,67 @@
-h1 {
-  color: blueviolet;
+body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
+  background-color: #280045;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/images/castle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0px;
+}
+header h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 30px 0;
+}
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  color: #780cc5;
+  padding: 16px 32px;
+  border-radius: 15px;
+  margin-top: 32px;
+  display: inline-block;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0px;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
 }
